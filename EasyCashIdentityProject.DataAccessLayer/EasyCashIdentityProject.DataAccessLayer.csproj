@@ -18,4 +18,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCashIdentityProject.EntityLayer\EasyCashIdentityProject.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

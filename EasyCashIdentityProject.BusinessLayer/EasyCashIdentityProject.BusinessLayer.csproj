@@ -15,4 +15,14 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCashIdentityProject.DataAccessLayer\EasyCashIdentityProject.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EasyCashIdentityProject.EntityLayer\EasyCashIdentityProject.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
